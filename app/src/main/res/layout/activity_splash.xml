@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.SplashActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/splash_bg"
+        android:scaleType="centerCrop"
+        android:alpha="0.6"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/tv_text_on_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text On Photo"
+            android:fontFamily="@font/bungee"
+            android:textSize="40dp"
+            android:alpha="0"/>
+
+        <TextView
+            android:id="@+id/tv_add_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Text On Photo"
+            android:fontFamily="@font/noto"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:layout_marginTop="10dp"
+            android:alpha="0"/>
+
+        <ProgressBar
+            android:id="@+id/pb_splash"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:progressTint="#FF3C00"
+            android:indeterminate="true"
+            android:indeterminateDuration="500"
+            android:indeterminateTint="#FF3C00"
+            android:layout_marginTop="10dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:padding="10dp"
+            android:alpha="0"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+</layout>

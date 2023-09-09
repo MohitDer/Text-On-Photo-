@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TextOnPhoto" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_secondary</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/color_primary</item>
+    </style>
+
+    <color name="color_primary">#FFFFFF</color>
+    <color name="color_accent">#353535</color>
+</resources>

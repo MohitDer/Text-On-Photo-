@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "122175354138",
+    "firebase_url": "https://text-on-photo-96d66-default-rtdb.firebaseio.com",
+    "project_id": "text-on-photo-96d66",
+    "storage_bucket": "text-on-photo-96d66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122175354138:android:cb77bbe97ca67781c628a3",
+        "android_client_info": {
+          "package_name": "com.hindustan.textonphoto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122175354138-qm6apcikm3s55oehsd995bd4f4i10keu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3cz6ksNj9D4PYPDzkgAT2SkrQK9R0cu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122175354138-qm6apcikm3s55oehsd995bd4f4i10keu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
